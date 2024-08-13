@@ -10,11 +10,13 @@
 
 .mainSection{
   flex-grow: 1;
+  background-color: #212529;
 }
 
 .tamanioOpcionesMenu{
   font-weight: 500;
 }
+
 
 .tamanioOpcionesMenu:hover{
   color: #3cbbeb !important;
