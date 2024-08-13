@@ -2,15 +2,16 @@ import React from 'react';
 import banner1 from "../../assets/carousel-1.png";
 import banner2 from "../../assets/carousel-2.png";
 
+
 const BannerInicio = () => {
     return (
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={banner1} className="d-block w-100" alt="Banner 1" />
+                    <img src={banner1} className="d-block w-100 bannerGradiente"  alt="Banner 1" />
                 </div>
                 <div className="carousel-item">
-                    <img src={banner2} className="d-block w-100" alt="Banner 2" />
+                    <img src={banner2} className="d-block w-100 bannerGradiente" alt="Banner 2" />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

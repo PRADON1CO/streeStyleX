@@ -1,0 +1,8 @@
+.bannerGradiente{
+    mask-image: linear-gradient(to bottom, 
+    #212529 80%, 
+    transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, 
+           #212529 80%, 
+           transparent 100%);
+  }
