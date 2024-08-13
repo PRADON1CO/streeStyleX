@@ -8,7 +8,7 @@ const Inicio = () => {
   return (
     <div className="mainSection">
       <BannerInicio></BannerInicio>
-      <div className="container">
+      <div className="container py-3">
         <h2 className="text-center text-white">- SUMALE A TUS LOOKS -</h2>
         <Row>
           <CardZapatillas></CardZapatillas>
