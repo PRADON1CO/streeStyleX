@@ -21,3 +21,38 @@
 .textTransferencia{
   font-size: 12px;
 }
+
+.posicionTextPromo {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-align: left;
+}
+
+.tamanioTextPromo{
+  font-size: 10px;
+}
+
+.tamanioTextEnvio{
+  font-size: 13px;
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+  .tamanioTextPromo{
+    font-size: 16px;
+  }
+
+  .tamanioTextEnvio{
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 992px){
+  .tamanioTextPromo{
+    font-size: 22px;
+  }
+
+  .tamanioTextEnvio{
+    font-size: 28px;
+  }
+}
