@@ -10,7 +10,7 @@ const Inicio = () => {
     <section className="mainSection">
       <BannerInicio></BannerInicio>
       <div className="container py-3">
-        <h2 className="text-center text-white">- SUMALE A TUS LOOKS -</h2>
+        <h2 className="text-center text-white">- NEW DROP -</h2>
         <Row>
           <CardZapatillas></CardZapatillas>
           <CardZapatillas></CardZapatillas>
@@ -19,6 +19,15 @@ const Inicio = () => {
         </Row>
       </div>
       <BnanerPromocionesInicio></BnanerPromocionesInicio>
+      <div className="container py-3">
+        <h2 className="text-center text-white">- SUMALE A TUS LOOKS -</h2>
+        <Row>
+          <CardZapatillas></CardZapatillas>
+          <CardZapatillas></CardZapatillas>
+          <CardZapatillas></CardZapatillas>
+          <CardZapatillas></CardZapatillas>
+        </Row>
+      </div>
     </section>
   );
 };
