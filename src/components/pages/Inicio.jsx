@@ -8,6 +8,7 @@ import pagoRealizado from"../../assets/pagoRealizado.png"
 import pedidoEmpaquetado from"../../assets/pedidoEmpaquetado.png"
 import pedidoEnviado from"../../assets/pedidoEnviado.png"
 import recibeCompra from"../../assets/recibiTuCompra.png"
+import CarouselZapatillas from "../zatatillas/CarouselZapatillas";
 
 
 const Inicio = () => {
@@ -26,12 +27,7 @@ const Inicio = () => {
       <BnanerPromocionesInicio></BnanerPromocionesInicio>
       <div className="container py-3">
         <h3 className="text-center text-white py-3">- SUMALE A TUS LOOKS -</h3>
-        <Row>
-          <CardZapatillas></CardZapatillas>
-          <CardZapatillas></CardZapatillas>
-          <CardZapatillas></CardZapatillas>
-          <CardZapatillas></CardZapatillas>
-        </Row>
+        <CarouselZapatillas></CarouselZapatillas>
       </div>
       <div className="container py-2 text-center text-white">
         <h3 className="pb-3">- SOBRE ENVIOS -</h3>

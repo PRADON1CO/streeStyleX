@@ -2,10 +2,10 @@ import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const CardZapatillas = () => {
+const CardZapatillas = ({ isCarousel }) => {
   return (
-    <Col xs={6} md={4} lg={3} className="mb-3">
-      <Card className="h-100 border-0 bg-transparent">
+    <Col xs={isCarousel ? 12 : 6} md={isCarousel ? 12 : 4} lg={isCarousel ? 12 : 3} className="mb-3">
+      <Card  className={`h-100 border-0 bg-transparent ${isCarousel ? 'mx-2' : ''}`}>
         <div>
           <img
             src="https://acdn.mitiendanube.com/stores/001/240/717/products/207-5438f5cfd47dcdfcb017197905825942-320-0.webp"
