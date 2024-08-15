@@ -1,0 +1,13 @@
+.imgError404{
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 767px){
+    .imgError404{
+        width: 550px;
+        height: 550px;
+    }
+}
+
+
