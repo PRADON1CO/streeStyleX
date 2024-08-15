@@ -6,7 +6,7 @@ const Error404 = () => {
     return (
         <Container className='text-center py-2'>
             <img src={error404} alt="" className='imgError404 mx-auto d-block' />
-            <a to='/' className=" btn bg-dark border-0 text-white">Volver al inicio</a>
+            <a to='/' className=" btn bg-dark border-0 rounded-0 text-white">Volver al inicio</a>
         </Container>
     );
 };
