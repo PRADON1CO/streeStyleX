@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const CardZapatillas = ({ isCarousel }) => {
   return (
-    <Col xs={isCarousel ? 12 : 6} md={isCarousel ? 12 : 4} lg={isCarousel ? 12 : 3} className="mb-3">
-      <Card  className={`h-100 border-0 bg-transparent ${isCarousel ? 'mx-2' : ''}`}>
+    <Col xs={isCarousel ? 12 : 6} md={isCarousel ? 12 : 4} lg={isCarousel ? 12 : 3} className="mb-3 p-0">
+      <Card  className={`h-100 border-0 bg-transparent ${isCarousel ? 'mx-0 p-1' : 'p-1 h-100'}`}>
         <div>
           <img
             src="https://acdn.mitiendanube.com/stores/001/240/717/products/207-5438f5cfd47dcdfcb017197905825942-320-0.webp"
@@ -14,7 +14,7 @@ const CardZapatillas = ({ isCarousel }) => {
           />
         </div>
         <Card.Body>
-          <Card.Title className="text-white">Air Jordan 1 Low</Card.Title>
+          <Card.Title className="text-white fs-5">Air Jordan 1 Low</Card.Title>
           <Card.Text>
             <div className="d-flex justify-content- align-items-center">
               <span className="text-white fw-medium pe-2">$180.999</span>

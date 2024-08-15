@@ -9,7 +9,7 @@
 
 .card-img-top-nueva {
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -53,6 +53,7 @@
   transform: scale(1.2); 
 }
 
+
 @media (min-width: 767px) and (max-width: 991px){
   .tamanioTextPromo{
     font-size: 16px;
@@ -72,4 +73,3 @@
     font-size: 28px;
   }
 }
-

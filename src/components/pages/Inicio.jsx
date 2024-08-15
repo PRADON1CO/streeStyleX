@@ -22,6 +22,8 @@ const Inicio = () => {
           <CardZapatillas></CardZapatillas>
           <CardZapatillas></CardZapatillas>
           <CardZapatillas></CardZapatillas>
+          <CardZapatillas></CardZapatillas>
+          <CardZapatillas></CardZapatillas>
         </Row>
       </div>
       <BnanerPromocionesInicio></BnanerPromocionesInicio>
